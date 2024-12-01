@@ -1,0 +1,40 @@
+.header {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header span{
+    letter-spacing: 25px;
+    text-decoration: none;
+    color: var(--terceary);
+    font-size: 10rem; 
+    font-weight: bold;
+    padding: 20px;
+}
+
+.header nav{
+    margin-top: 30px;
+}
+
+.header nav a{
+    text-decoration: none;
+    color: black;
+    margin: 0rem .5rem;
+    font-size: 1.5rem;
+    transition: .2s;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: var(--secondary);
+    padding: 2px 20px;
+    border-radius: 25px;
+}
+
+.header a:hover {
+    color: rgb(54, 194, 36);
+    background-color: rgb(4, 75, 4);
+}
